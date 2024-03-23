@@ -1,19 +1,18 @@
 body, .tpm {
     margin: 0;
-    background-color: #4C9540;
+    background-color: #70828A;
   }
   body{
     font-family: 'Montserrat', sans-serif;
   }
   #title {
-    background-color: #4C9540;
+    background-color: #70828A;
   }
   #title-head{
-    font-family: cursive;
+    font-family: serif;
     font-size: 2.25rem;
     line-height: 1.55;
     font-weight: 900;
-    color: red;
     text-shadow:
     -1px -1px 0 #000,  
      1px -1px 0 #000,
@@ -94,7 +93,7 @@ body, .tpm {
 
 
 .tokenomic-set{
-    background-color: #4C9540;
+    background-color: #70828A;
     padding: 150px 0px;
 }
 
@@ -246,7 +245,7 @@ body, .tpm {
   #about {
     position: relative;
     z-index: 2; /* Update the z-index to be higher than the "iphone6" image */
-    background-color: #4C9540;
+    background-color: #70828A;
   }
   
   #press{
@@ -358,7 +357,7 @@ body, .tpm {
   padding: 60px;
   }
   .ficon:hover{
-    color: #ff4c68;
+    color: #000;
   }
   
   #last-text{
@@ -371,7 +370,7 @@ body, .tpm {
   
   .boxxy{
     border: 2px solid white;
-    background-color: #0d6100a4; /* Bright white background color */
+    background-color: #70828A; /* Bright white background color */
     border-radius: 30px 0 30px 0; /* Curved corners on opposite sides */
     box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.8); /* Glowing white outline */
   }
@@ -380,22 +379,34 @@ body, .tpm {
   }
   
   
+ 
   
-  @media only screen and (max-width: 767px) {
-  
+
+
+  /* Default styles */
+
+/* Add your default styles here */
+
+/* Media query for small devices (e.g., smartphones) */
+@media only screen and (max-width: 767px) {
+    /* Modify styles for small devices here */
+    .navbar-nav {
+      margin-left: 0; /* Reset margin for navbar links */
+    }
   }
   
   /* Media query for tablets */
-  @media only screen and (min-width: 500px) and (max-width: 1023px) {
-    #iphone6{
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Modify styles for tablets here */
+    #iphone6 {
       position: static;
-      transform: rotate(0);
+      transform: rotate(0); /* Reset rotation for the iPhone image */
     }
-    body{
-      text-align: center;
+    body {
+      text-align: center; /* Center-align text on tablets */
     }
-    .nav-link{
-      font-weight: 700;
+    .nav-link {
+      font-weight: 700; /* Adjust font weight for navbar links on tablets */
     }
   }
   
