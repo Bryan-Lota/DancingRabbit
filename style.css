@@ -389,7 +389,7 @@ margin-top: 20px;
 }
 
 .levitating-image {
-  animation: levitate 3.5s infinite alternate; /* Adjust animation duration and properties as needed */
+  animation: levitate 2s infinite alternate; /* Adjust animation duration and properties as needed */
 }
 
 
