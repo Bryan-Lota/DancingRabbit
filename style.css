@@ -28,7 +28,7 @@ body, .tpm {
     width: 105%;
   }
     #picd{
-    width: 55%;
+    width: 95%;
   }
   .brushstroke{
     height: 10px; /* Adjust the height of the brush stroke line */
@@ -107,7 +107,7 @@ body, .tpm {
   }
   
   .container-fluids{
-    padding: 2% 4.5%;
+    padding: 2% 3.5%;
   }  
 
   .container-fluid{
@@ -141,20 +141,18 @@ body, .tpm {
   }
   
   #iphone6 {
-    width: 75%;
+    width: 115%;
     position: relative;
     z-index: 1;
     /* padding-bottom: 120px; */
-    margin-left: 100px;
+    margin-left: 0px;
   }
   #token6 {
     width: 105%;
     position: relative;
     z-index: 1;
-    border: 3px solid white;
     margin-top: 35px ;
     border-radius: 50%;
-    padding: 10px;
     
 }
   
@@ -255,9 +253,8 @@ body, .tpm {
   }
   
   .press-img{
-  width: 10%;
-  padding: 10px 0;
-  margin-right: 20px;
+  width:  40%;
+  padding: 0px ;
   }
   
   #plan{
@@ -393,6 +390,18 @@ body, .tpm {
     .navbar-nav {
       margin-left: 0; /* Reset margin for navbar links */
     }
+    .navbar-logos{
+
+    }
+    .container-fluids{
+      padding: 1% 7.5%;
+    }
+        .container-fluid{
+      padding: 1% 7.5%;
+    }
+    .container-fluid2{
+      padding: 1% 7.5%;
+    }
   }
   
   /* Media query for tablets */
@@ -406,7 +415,7 @@ body, .tpm {
       text-align: center; /* Center-align text on tablets */
     }
     .nav-link {
-      font-weight: 700; /* Adjust font weight for navbar links on tablets */
+      font-weight: bold; /* Adjust font weight for navbar links on tablets */
     }
   }
   
