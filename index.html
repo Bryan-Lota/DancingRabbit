@@ -329,10 +329,22 @@ Finally, in the third phase, the Dancing Rat executes the ultimate meme takeover
   
   
   <script>
-    window.onload = function() {
-      var audio = new Audio('images/Michael_Jackson_-_Billie_Jean.mp3');
-      audio.play();
+    // Function to play audio when user interacts with the page
+    function playAudio() {
+      var audio = document.getElementById('backgroundAudio');
+      audio.play().catch(function(error) {
+        console.log('Autoplay failed:', error);
+      });
     }
+
+    // Add event listener for user interaction (e.g., click or tap)
+    document.addEventListener('DOMContentLoaded', function() {
+      document.addEventListener('click', playAudio);
+      document.addEventListener('touchstart', playAudio);
+      document.addEventListener('scroll', playAudio);
+   });
   </script>
+
+  
 </body>
 </html>
