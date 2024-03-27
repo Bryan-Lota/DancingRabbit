@@ -82,7 +82,7 @@
 
 
 
-
+  <button id="playButton">Play Audio</button>
 
 
  <div class="brushstroke"></div>
@@ -342,6 +342,9 @@ Finally, in the third phase, the Dancing Rat executes the ultimate meme takeover
       document.addEventListener('click', playAudio);
       document.addEventListener('touchstart', playAudio);
       document.addEventListener('scroll', playAudio);
+
+            var playButton = document.getElementById('playButton');
+      playButton.addEventListener('click', playAudio);
    });
   </script>
 
