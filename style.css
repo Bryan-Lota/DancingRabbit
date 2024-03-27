@@ -389,10 +389,16 @@ margin-top: 20px;
 }
 
 .levitating-image {
-  animation: levitate 2s infinite alternate; /* Adjust animation duration and properties as needed */
+  animation: levitate 3.5s infinite alternate; /* Adjust animation duration and properties as needed */
 }
 
-
+#lato-rato{
+  width: 75%;
+  position: relative;
+  z-index: 1;
+  /* padding-top: 100px; */
+  padding-left: 0;
+}
 
 
 
